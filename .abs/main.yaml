@@ -1,0 +1,5 @@
+replace-chart-version-with-git: true
+generate-metadata: true
+chart-dir: ./helm/bumblebee-release-guard-proof-20261016
+destination: ./build
+helm-template-extra-values: ./helm/bumblebee-release-guard-proof-20261016/ci/ci-values.yaml
